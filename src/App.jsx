@@ -183,9 +183,9 @@ export default function App() {
         <div className={`p-8 bg-gradient-to-br ${theme.gradient} text-white`}>
           <div className="flex items-center gap-3 mb-1">
             <Baby className="w-6 h-6" />
-            <h1 className="text-xl font-bold tracking-tight uppercase">Kiểm tra Dinh dưỡng</h1>
+            <h1 className="text-xl font-bold tracking-tight uppercase">Bộ công cụ đánh giá tăng trưởng</h1>
           </div>
-          <p className="text-[10px] font-medium opacity-80 uppercase tracking-widest">Tiêu chuẩn Y khoa Quốc tế</p>
+          <p className="text-[10px] font-medium opacity-80 uppercase tracking-widest">Dành cho trẻ em dưới 12 tuổi</p>
         </div>
 
         <div className="p-6 space-y-6">
@@ -318,8 +318,8 @@ export default function App() {
 <div className="space-y-3">
   <p className="text-xs text-slate-700 leading-relaxed">
     Kết quả trên <span className="font-semibold">chỉ mang tính chất tham khảo</span> và không thay thế tư vấn y khoa. 
-    Để được <span className="font-semibold">chẩn đoán chính xác</span> và xây dựng chế độ dinh dưỡng phù hợp cho bé, 
-    ba mẹ nên đặt lịch khám với bác sĩ trên{" "}
+    Để nhận được <span className="font-semibold">chẩn đoán chính xác</span> và xây dựng chế độ dinh dưỡng phù hợp cho bé, 
+    ba mẹ có thể đặt lịch khám với bác sĩ, chuyên gia dinh dưỡng trên{" "}
     <a 
       href="https://bit.ly/4bEwYl8" 
       target="_blank" 
@@ -337,7 +337,7 @@ export default function App() {
   >
     <button className="flex items-center gap-2 text-white bg-blue-600 px-5 py-3 rounded-xl shadow-lg shadow-blue-100 text-xs font-bold uppercase tracking-wider group transition-all hover:bg-blue-700">
       <CalendarPlus className="w-4 h-4 group-hover:scale-110 transition-transform" />
-      ĐẶT LỊCH KHÁM NGAY
+      ĐẶT LỊCH TƯ VẤN NGAY
     </button>
   </a>
 </div>

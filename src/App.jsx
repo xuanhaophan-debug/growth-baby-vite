@@ -212,7 +212,7 @@ export default function App() {
                 <div className="flex justify-between items-center">
                   <div className="flex items-center gap-3">
                     <Timer className={`w-4 h-4 ${isPreterm ? 'text-amber-600' : 'text-gray-400'}`} />
-                    <span className="text-sm font-bold text-gray-700">Chế độ sinh non</span>
+                    <span className="text-sm font-bold text-gray-700">Bé sinh non</span>
                   </div>
                   <button 
                     onClick={() => setIsPreterm(!isPreterm)}
